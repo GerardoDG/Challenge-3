@@ -1,31 +1,42 @@
 /*CSS Reset / Normalize*/
+
+
 /* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
 en las secciones señaladas */
+
+
 /*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
 coloque nas sessões indicadas*/
 
-:root{
+:root {
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+    --cor-de-letra: #464646;
 }
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
+    background-color: var(--cor-de-fundo);
     font-family: 'Raleway';
+    color: var(--cor-de-letra);
     margin: 0;
     padding: 0;
     line-height: 1;
 }
-ol, ul,li {
+
+ol,
+ul,
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--cor-de-link);
 }
+
 
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
 
@@ -39,94 +50,73 @@ con una interfaz de usuario compleja, y permite la reutilización del código ex
 Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
 
+
 /*Sección Menu*/
 
-section.menu{
+section.menu {}
 
-}
 
 /*Sección Title*/
 
-section.title{
+section.title {}
 
-}
 
 /*Sección About*/
 
-section.about{
+section.about {}
 
-}
 
 /*Sección Hobbies*/
 
-section.hobbies{
-    
-}
+section.hobbies {}
+
 
 /* Experiencia Académica*/
 
-section.academic{
+section.academic {}
 
-}
 
 /* experiencia*/
 
-section.experience{
+section.experience {}
 
-}
 
 /*Contacto*/
 
-section.formcontato{
+section.formcontato {}
 
-}
 
 /*footeer*/
 
-section.footer{
-   
-}
+section.footer {}
+
 
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
 
 
 /*Tablet*/
+
 @media (min-width: 768px) {
-
-/* Menú */
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
+    /* Menú */
+    /*title*/
+    /*Skills*/
+    /*Hobbies*/
+    /*Formación Académica*/
+    /*Experiencia Profesional*/
 }
 
+
 /*Mobile*/
+
 @media (min-width: 425px) {
-
-/*Menu*/
-
-/*Titulo*/
-
-/*Sección sobre mi*/
-
-/*Skills*/
-
-/*Hobbies*/
- 
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
- /*Contacto*/
-
-/*Footer*/
-
+    /*Menu*/
+    /*Titulo*/
+    /*Sección sobre mi*/
+    /*Skills*/
+    /*Hobbies*/
+    /*Formación Académica*/
+    /*Experiencia Profesional*/
+    /*Contacto*/
+    /*Footer*/
 }
