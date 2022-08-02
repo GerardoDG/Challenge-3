@@ -92,7 +92,8 @@
 /*----------------------------*/
 
 .about {
-    background-color: #eaf2fd;
+    background: url(assets/fondito.png);
+    color: #fff;
 }
 
 .about__container {
@@ -174,7 +175,8 @@
 /*----------------------------*/
 
 .academic {
-    background-color: #eaf2fd;
+    background: url(assets/fondito.png);
+    color: #fff;
 }
 
 .academic__title {
@@ -234,6 +236,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 4rem;
+    justify-content: center;
 }
 
 .experience__img {
@@ -283,8 +286,8 @@
 .experiencia__botao__repo {
     width: 7.25rem;
     height: 3.18rem;
-    border: 1px solid #2a7ae4;
-    color: #2a7ae4;
+    border: 1px solid #000000;
+    color: #000000;
     background: none;
     border-radius: 2px;
     font-family: 'Raleway';
@@ -296,9 +299,9 @@
 .experience__botao__demo {
     width: 7.25rem;
     height: 3.18rem;
-    border: 1px solid #2a7ae4;
+    border: 1px solid #000000;
     color: #fff;
-    background: #2a7ae4;
+    background: #000000;
     border-radius: 2px;
     font-weight: 400;
     margin-left: .5rem;
@@ -312,7 +315,8 @@
 /*----------------------------*/
 
 .formcontato {
-    background-color: #eaf2fd;
+    background: url(assets/fondito.png);
+    color: #fff;
 }
 
 .formcontato__contacto {
@@ -351,11 +355,11 @@
 }
 
 .formcontato__botao {
-    background-color: #2a7ae4;
+    background-color: #000;
     color: #fff;
     height: 51px;
     width: 144px;
-    border-color: #2a7ae4;
+    border-color: #000;
     border-radius: 2px;
     font-family: 'Raleway';
     font-size: 1rem;
@@ -569,7 +573,16 @@
     }
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 414px) {
+    .menu {
+        display: inline-block;
+    }
+    .menu__header {
+        justify-content: center;
+    }
+    .menu__list {
+        justify-content: center;
+    }
     .title__div {
         display: flex;
         flex-direction: column;
