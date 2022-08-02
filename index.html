@@ -52,14 +52,16 @@
                         <li class="title__network__item"><a href="">Currículo <img src="assets\arrow.png" class="flecha"></a></li>
                     </ul>
                 </div>
-                <img class="title__profile" src="assets\profile.png">
+                <div class="title__container2">
+                    <img class="title__profile" src="assets\profile.png">
+                </div>
             </div>
         </section>
 
         <!-- Sección sobre mi -->
         <section class="about">
             <div class="about__container">
-                <h3 class="about__title">Sobre mi</h3>
+                <h3 class="about__title" id="tamanoletra">Sobre mi</h3>
                 <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. </p>
                 <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean
                     sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
@@ -70,7 +72,7 @@
 
         <!-- Sección de Skills -->
         <section class="skills" id="centrado">
-            <h3 class="skills__title">Skills</h3>
+            <h3 class="skills__title" id="tamanoletra">Skills</h3>
             <div class="skills__line">
                 <div class="skills__box">
                     <ul class="cuadros">
@@ -118,7 +120,7 @@
 
         <!-- Sección de Hobbies -->
         <section class="hobbies" id="centrado">
-            <h3 class="hobbies__title">Hobbies</h3>
+            <h3 class="hobbies__title" id="tamanoletra">Hobbies</h3>
             <div class="hobbies__line">
                 <div class="hobbies__box">
                     <ul class="cuadros">
@@ -166,12 +168,12 @@
 
         <!-- Sección de Formación académica -->
         <section class="academic">
-            <h2 class="academic__title">Formación académica</h2>
+            <h2 class="academic__title" id="tamanoletra">Formación académica</h2>
             <div class="academic__courses">
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
                         <!-- Pon el logotipo de la institución de formación -->
-                        <li class="academic__courses__item__img"><img src="assets\ufpr_logo.png"></li>
+                        <li class="academic__courses__item__img"><img class="imagenfa" src="assets\ufpr_logo.png"></li>
                         <li class="academic__courses__item__title">
                             <h4>Análisis de datos</h4>
                         </li>
@@ -183,7 +185,7 @@
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
                         <!--Pon el logotipo de la institución de formación -->
-                        <li class="academic__courses__item__img"><img src="assets\alura_logo.png"></li>
+                        <li class="academic__courses__item__img"><img class="imagenfa" src="assets\alura_logo.png"></li>
                         <li class="academic__courses__item__title">
                             <h4>Formación en UX Design</h4>
                         </li>
@@ -195,7 +197,7 @@
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
                         <!-- Pon el logotipo de la institución de formación -->
-                        <li class="academic__courses__item__img"><img src="assets\ufrj_logo.png"></li>
+                        <li class="academic__courses__item__img"><img class="imagenfa" src="assets\ufrj_logo.png"></li>
                         <li class="academic__courses__item__title">
                             <h4>Posgrado en diseño</h4>
                         </li>
@@ -209,45 +211,60 @@
 
         <!-- Sección de Experiencia Profesional/Proyectos-->
         <section class="experience" id="centrado">
-            <h2 class="experience__section__title">Experiencia Profesional</h2>
+            <h2 class="experience__section__title" id="tamanoletra">Experiencia Profesional</h2>
             <div class="experiencie__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                <img class="experience__img" src="assets\decod_print.png">
-                <div class="experience__info">
-                    <h2 class="experience__title">Encriptador de texto</h2>
-                    <h3 class="experience__text">Challenge Alura Codificador </h3>
-                    <div class="experience__description">
-                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                        <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao__repo">Repositório</button></a></span>
-                        <span class="experience__demo"><a href=""><button class="experience__botao__demo">Ver demo</button></a></span>
+                <div class="contenedor__directo">
+                    <div class="box3">
+                        <img class="experience__img" src="assets\decod_print.png">
                     </div>
+                    <div class="box4">
+                        <div class="experience__info">
+                            <h2 class="experience__title">Encriptador de texto</h2>
+                            <h3 class="experience__text">Challenge Alura Codificador </h3>
+                            <div class="experience__description">
+                                <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                                <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao__repo">Repositório</button></a></span>
+                                <span class="experience__demo"><a href=""><button class="experience__botao__demo">Ver demo</button></a></span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
 
             <div class="experiencie__box">
                 <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-
-                <div class="experience__info">
-                    <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
-                    <h3 class="experience__text">Challenge Oracle </h3>
-                    <div class="experience__description">
-                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                        <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao__repo">Repositório</button></a></span>
-                        <span class="experience__demo"><a href=""><button class="experience__botao__demo">Ver demo</button></a></span>
+                <div class="contenedor__reversa">
+                    <div class="box1">
+                        <div class="experience__info">
+                            <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
+                            <h3 class="experience__text">Challenge Oracle </h3>
+                            <div class="experience__description">
+                                <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                                <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-juego-ahorcado"><button class="experiencia__botao__repo">Repositório</button></a></span>
+                                <span class="experience__demo"><a href=""><button class="experience__botao__demo">Ver demo</button></a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <img class="experience__img" src="assets\forca_print.png">
                     </div>
                 </div>
-                <img class="experience__img" src="assets\forca_print.png">
+
+
             </div>
         </section>
 
         <!-- Sección de Contacto -->
         <section class="formcontato">
             <div class="formcontato__contacto">
-                <div class="formcontato--esquerda">
+                <div class="formcontato__esquerda">
                     <img class="formcontato__img" src="assets\contact_image.png">
                 </div>
                 <div class="formcontato__text">
-                    <h2 class="formcontato__title">Contacto</h2>
+                    <h2 class="formcontato__title" id="tamanoletra">Contacto</h2>
                     <div class="texto__contacto">
                         <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                         <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
