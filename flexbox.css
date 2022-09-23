@@ -37,6 +37,10 @@
     margin-left: 2rem;
 }
 
+.menu__list__item:hover {
+    zoom: 200%;
+}
+
 .menu__title {
     margin: 0 .5rem;
     font-weight: bold;
